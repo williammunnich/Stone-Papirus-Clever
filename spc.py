@@ -32,6 +32,8 @@ def RockPaperScissors(choice):
         if rand == "rock":
             return "you chose "  + choice + ". The bot chose " + rand + '. you lost'
         else:
-            return "you chose "  + choice + ". The bot chose " + rand + '. you won'                                          
+            return "you chose "  + choice + ". The bot chose " + rand + '. you won'    
+    else: 
+        return "Invalid choice try again."                                      
 #rpc = input("Choose either 'rock', 'paper', or 'scissors': ").lower()
 #print(RockPaperScissors(rpc))
