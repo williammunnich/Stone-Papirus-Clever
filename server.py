@@ -48,8 +48,9 @@ async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     #asserts dominace in general channel of murrayherbig's server
     #await channel.send("Hi!! Type '$chat' to activate the chatbot. \nAfter activating the chatbot use any of the following words to end the program: \n'exit', 'quit', 'leave', 'abort', 'get out', 'close', 'end'")
-    await channel.send("This is buggy and if you type anything other than 'rock', 'paper' and 'scissors' it will break the program.")
+    
     await channel.send("Type '$play' to play rock paper scissors")
+    await channel.send("Choose 'rock', 'paper' or 'scissors'.")
     
     
 #variable used so that if you type $chat more than once it doesnt respond several times to the same message (dont want several instances of chat program running)
